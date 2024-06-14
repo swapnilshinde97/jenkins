@@ -1,6 +1,6 @@
 var request = require('supertest');
 var app = require('../index.js');
-
+ 
 describe('GET /', function() {
   it('respond with 404 page not found', function(done) {
     request(app)
@@ -16,4 +16,4 @@ describe('GET /', function() {
         done();
       });
   });
-});
+})
